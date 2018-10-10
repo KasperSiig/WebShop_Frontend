@@ -1,0 +1,1 @@
+const HOST_NAME = "https://localhost:5001/"

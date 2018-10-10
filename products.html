@@ -9,6 +9,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/products.css">
+    <script src="js/env.js"></script>
     <script src="js/products.js"></script>
 </head>
 <body>
@@ -20,7 +21,7 @@
                 <img src="assets/imgs/logo.png" class="navbar__img"/>
             </a>
         </div>
-        <ul class="nav navbar-nav col-md-7">
+        <ul class="nav navbar-nav col-md-6">
             <li><a href="index.html">Forside</a></li>
             <li class="active"><a href="products.html">Designstole</a></li>
             <li><a href="#">Om Os</a></li>
@@ -38,95 +39,36 @@
         </div>
         <ul class="list-unstyled components">
             <li class="active first-list">
-                <a href="#stoleSubMenu" data-toggle="collapse" class="dropdown-toggle">STOLE</a>
-                <ul class="collapse list-unstyled" id="stoleSubMenu">
-                    <li>
-                        <a href="#">Hello</a>
-                    </li>
+                <a href="#tagsSubMenu" data-toggle="collapse" class="dropdown-toggle">TAGS</a>
+                <ul class="collapse list-unstyled subMenu" id="tagsSubMenu">
+
                 </ul>
             </li>
             <li class="first-list">
-                <a href="#" data-toggle="collapse" class="dropdown-toggle">PRIS</a>
+                <a href="#designerSubMenu" data-toggle="collapse" class="dropdown-toggle">DESIGNER</a>
+                <ul class="collapse list-unstyled subMenu" id="designerSubMenu">
+
+                </ul>
             </li>
             <li class="first-list">
-                <a href="#" data-toggle="collapse" class="dropdown-toggle">DESIGNER</a>
+                <a href="#farveSubMenu" data-toggle="collapse" class="dropdown-toggle">FARVE</a>
+                <ul class="collapse list-unstyled subMenu" id="farveSubMenu">
+
+                </ul>
             </li>
             <li class="first-list">
-                <a href="#" data-toggle="collapse" class="dropdown-toggle">FARVE</a>
-            </li>
-            <li class="first-list">
-                <a href="#" data-toggle="collapse" class="dropdown-toggle">LEVERANDØR</a>
+                <a href="#makerSubMenu" data-toggle="collapse" class="dropdown-toggle">LEVERANDØR</a>
+                <ul class="collapse list-unstyled subMenu" id="makerSubMenu">
+
+                </ul>
             </li>
         </ul>
     </nav>
     <img src="assets/imgs/design_stole.png" class="contentLogo"/>
     <div id="content">
         <div class="col-md-6">
-            <table>
-                <tr>
-                    <td class="chair">
-                        <img src="assets/imgs/chairs/chair1.png"/>
-                        <br>
-                        <span class="chair__title">DALE 1982</span>
-                        <br>
-                        <span class="chair__designer">Bent Hansen</span>
-                    </td>
-                    <td class="chair">
-                        <img src="assets/imgs/chairs/chair2.png"/>
-                        <br>
-                        <span class="chair__title">LE SUIS 1866</span>
-                        <br>
-                        <span class="chair__designer">Bent Hansen</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="chair">
-                        <img src="assets/imgs/chairs/chair3.png"/>
-                        <br>
-                        <span class="chair__title">DALE 1982</span>
-                        <br>
-                        <span class="chair__designer">Bent Hansen</span>
-                    </td>
-                    <td class="chair">
-                        <img src="assets/imgs/chairs/chair4.png"/>
-                        <br>
-                        <span class="chair__title">KAWAI 1422</span>
-                        <br>
-                        <span class="chair__designer">Bent Hansen</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="chair">
-                        <img src="assets/imgs/chairs/chair5.png"/>
-                        <br>
-                        <span class="chair__title">ORDEAL 1866</span>
-                        <br>
-                        <span class="chair__designer">Bent Hansen</span>
-                    </td>
-                    <td class="chair">
-                        <img src="assets/imgs/chairs/chair6.png"/>
-                        <br>
-                        <span class="chair__title">ADELIC 1982</span>
-                        <br>
-                        <span class="chair__designer">Bent Hansen</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="chair">
-                        <img src="assets/imgs/chairs/chair7.png"/>
-                        <br>
-                        <span class="chair__title">LBACE 1866</span>
-                        <br>
-                        <span class="chair__designer">Bent Hansen</span>
-                    </td>
-                    <td class="chair">
-                        <img src="assets/imgs/chairs/chair8.png"/>
-                        <br>
-                        <span class="chair__title">STORKEN 1982</span>
-                        <br>
-                        <span class="chair__designer">Bent Hansen</span>
-                    </td>
-                </tr>
+            <table class="productTable">
+
             </table>
         </div>
     </div>

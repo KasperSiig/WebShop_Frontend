@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Sintony');
+@import url('https://fonts.googleapis.com/css?family=Cantarell:400i');
+body {
+    background: white;
+}
+
+.div__img {
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.div__img img {
+    width: 500px;
+}
+
+.div__info {
+    position: relative;
+    top: 70px;
+    padding-left: 50px;
+}
+
+.name__styled {
+    font-size: 50px;
+    font-family: 'Sintony', sans-serif;
+    color: #b67561;
+    box-shadow: #707070 1px 1px 2px;
+    padding: 8px 5px 5px;
+}
+
+.name__italized {
+    font-family: 'Cantarell', sans-serif;
+    font-size: 30px;
+    position: relative;
+    left: -3px;
+}
+
+.designername {
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.price__label {
+    font-size: 25px;
+}
+
+.price__number {
+    font-size: 40px;
+}
+
+.desc {
+    background-color: #978988;
+    display: block;
+    width: 75%;
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.80);
+    box-shadow: #707070 1px 1px 2px;
+}
