@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200i');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background: url('../assets/imgs/front_page.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.navbar-lgant {
+    background-color: #988a8a;
+    border-radius: 0px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .5);
+    position: relative;
+    top: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+}
+
+.navbar__img {
+    margin-top: -16px;
+    margin-left: -40px;
+    height: 55px;
+}
+
+.navbar-lgant li a {
+    padding-left: 50px;
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.navbar-lgant li a:hover {
+    background-color: transparent;
+    color: #000;
+}
+
+.navbar-form input {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.38);
+    padding-left: 5px;
+}
+
+.navbar-form input::placeholder {
+    color: white;
+    font-weight: bolder;
+}
+

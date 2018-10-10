@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600i|Roboto:100');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300i');
+body {
+    background: white;
+}
+
+.sidebar-header {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.80);
+    padding-bottom: 8px;
+    text-shadow: 0 1px 1px #000000;
+}
+
+.sidebar-header, .first-list {
+    box-shadow: 0 8px 6px -2px #707070;
+    padding-left: 7px;
+    padding-top: 25px;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background-color: #988a8a;
+    position: relative;
+    top: 60px;
+    left: 80px;
+    box-shadow: #707070 0 2px 50px;
+}
+
+.components li a {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+.contentLogo {
+    position: relative;
+    top: 60px;
+    left: 30%;
+    height: 100%;
+    border: 2px solid #a1a2a1;
+    box-shadow: #707070 1px 1px 2px;
+}
+
+#content {
+    position: relative;
+    top: 200px;
+}
+
+.chair {
+    padding-right: 150px;
+    padding-bottom: 100px;
+}
+
+.chair img {
+    height: 250px;
+}
+
+.chair__title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+}
+
+.chair__designer {
+    font-weight: bold;
+}
+
+.scrollbar {
+    z-index: -1;
+    width: 50px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 8%;
+    background: #988a8a;
+}
+
+.scrollbar__img {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    right: 7.9%;
+}
