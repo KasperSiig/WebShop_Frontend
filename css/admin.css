@@ -1,0 +1,98 @@
+body {
+    background: white;
+}
+
+.container-fluid {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.80);
+    padding-top: 22px;
+    background: #988a8a;
+    height: 65px;
+}
+
+.chair {
+    padding-top: 50px;
+    width: 80%;
+    margin: auto auto;
+}
+
+.chair .title {
+    font-size: 50px;
+    color: #b67561;
+    border: 1px solid #a1a2a1;
+    box-shadow: 0 8px 6px -6px #707070;
+    position: relative;
+    left: -400px;
+}
+
+.imgdiv img {
+    width: 350px;
+}
+
+input, .form-control, .form-control:focus {
+    margin-bottom: 25px;
+    border: none;
+    box-shadow: 0 4px 6px -3px #a87775;
+
+}
+
+.inputs textarea {
+    margin-top: 25px;
+    border: none;
+    box-shadow: -7px -7px 6px -6px #a87775;
+}
+
+
+.form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.form-control-placeholder {
+    position: absolute;
+    top: 0;
+    padding: 7px 0 0 13px;
+    transition: all 200ms;
+    opacity: 0.5;
+}
+
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder {
+    font-size: 75%;
+    transform: translate3d(0, -100%, 0);
+    opacity:1;
+}
+
+.textareaInput {
+    width: 457%;
+}
+
+.textareaLbl {
+    position: relative;
+    top: -340px;
+}
+
+.btn__create {
+    position: relative;
+    top: -80px;
+}
+
+.btn-danger {
+    position: relative;
+    left: 20px;
+    border: none;
+    border-radius: 0px;
+    background-color: #554a4a;
+    box-shadow: 0 8px 6px -6px #707070;
+}
+
+
+
+.btn-success {
+    position: relative;
+    left: 20px;
+    border: none;
+    border-radius: 0px;
+    background-color: #554a4a;
+    box-shadow: 0 8px 6px -6px #707070;
+}

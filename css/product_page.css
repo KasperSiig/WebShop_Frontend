@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Sintony');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500');
 @import url('https://fonts.googleapis.com/css?family=Cantarell:400i');
 body {
     background: white;
+}
+
+.container-fluid {
+    background: #988a8a;
+    height: 65px;
 }
 
 .div__img {
@@ -22,30 +27,42 @@ body {
 
 .name__styled {
     font-size: 50px;
-    font-family: 'Sintony', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
     color: #b67561;
-    box-shadow: #707070 1px 1px 2px;
-    padding: 8px 5px 5px;
+    border: 1px solid #a1a2a1;
+    box-shadow: 0 8px 6px -6px #707070;
+    padding: 5px 15px;
+    position: relative;
+    left: -400px;
+    top: -150px;
 }
 
 .name__italized {
-    font-family: 'Cantarell', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 30px;
     position: relative;
     left: -3px;
+    top: -350px;
 }
 
 .designername {
     font-weight: bolder;
     font-size: 15px;
+    position: relative;
+    top: -350px;
 }
 
 .price__label {
     font-size: 25px;
+    position: relative;
+    top: -320px;
 }
 
 .price__number {
     font-size: 40px;
+    position: relative;
+    top: -320px;
 }
 
 .desc {
@@ -55,4 +72,12 @@ body {
     padding: 20px;
     color: rgba(255, 255, 255, 0.80);
     box-shadow: #707070 1px 1px 2px;
+    position: relative;
+    top: -300px;
+}
+
+.product__img {
+    position: relative;
+    left: -500px;
+    width: 400px;
 }

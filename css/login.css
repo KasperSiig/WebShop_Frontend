@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200');
+body {
+    background: white;
+}
+
+.container-fluid {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.80);
+    padding-top: 8px;
+    background: #988a8a;
+}
+
+.login__div {
+    position: relative;
+    top: 200px;
+}
+
+.login__form {
+    display:table;
+    margin:0 auto;
+    vertical-align: middle;
+}
+
+.login__form input {
+    border: 1px solid gray;
+    font-size: 30px;
+    margin-bottom: 10px;
+    box-shadow:2px 2px 2px #b67561;
+    padding-left: 5px;
+}
+
+.login__form input::placeholder {
+    color: #000;
+    /*text-shadow: #000000 1px 1px 3px;*/
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.input__btn {
+    -moz-box-shadow:inset 0px 0px 15px 3px #463030;
+    -webkit-box-shadow:inset 0px 0px 15px 3px #463030;
+    box-shadow:inset 0px 0px 15px 3px #463030;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6e4848), color-stop(1, #422828));
+    background:-moz-linear-gradient(top, #6e4848 5%, #422828 100%);
+    background:-webkit-linear-gradient(top, #6e4848 5%, #422828 100%);
+    background:-o-linear-gradient(top, #6e4848 5%, #422828 100%);
+    background:-ms-linear-gradient(top, #6e4848 5%, #422828 100%);
+    background:linear-gradient(to bottom, #6e4848 5%, #422828 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6e4848', endColorstr='#422828',GradientType=0);
+    background-color:#6e4848;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:19px;
+    padding:7px 158px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #263666;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+}
+.input__btn:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #422828), color-stop(1, #6e4848));
+    background:-moz-linear-gradient(top, #422828 5%, #6e4848 100%);
+    background:-webkit-linear-gradient(top, #422828 5%, #6e4848 100%);
+    background:-o-linear-gradient(top, #422828 5%, #6e4848 100%);
+    background:-ms-linear-gradient(top, #422828 5%, #6e4848 100%);
+    background:linear-gradient(to bottom, #422828 5%, #6e4848 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#422828', endColorstr='#6e4848',GradientType=0);
+    background-color:#422828;
+}
+.input__btn:active {
+    position:relative;
+    top:1px;
+}
+

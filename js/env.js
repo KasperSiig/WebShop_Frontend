@@ -1,1 +1,1 @@
-const HOST_NAME = "https://localhost:5001/"
+const HOST_NAME = "http://webshopapi-grp6.azurewebsites.net/";

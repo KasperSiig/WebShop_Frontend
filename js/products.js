@@ -53,7 +53,6 @@ function loadProducts(searchTerm = "") {
                 }
                 productTable.append("<td><td class=\"chair\">\n" +
                     "<img src=" + product.pictureURL + "/>\n" +
-                    "<br>\n" +
                     "<span class=\"chair__title\">" + product.name + "</span>\n" +
                     "<br>\n" +
                     "<span class=\"chair__designer\">" + product.designer.firstName + " " + product.designer.lastName + "</span>\n" +
@@ -106,7 +105,7 @@ function setFilters() {
 
 function setScrollBar() {
     const scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
-    const pos = ($(window).height() - 135) * scrollPercent / 100 + 80;
+    const pos = ($(window).height() - 145) * scrollPercent / 100 + 90;
     $(".scrollbar__img").css({top: pos});
 }
 

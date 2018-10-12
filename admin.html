@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LGANT</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script src="js/env.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <script src="js/admin.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-lgant">
+    <div class="container-fluid">
+        ADMINISTRATOR SIDE
+    </div>
+</nav>
+<div class="chairs">
+    <div class="chair">
+        <span class="title">New Chair</span><br>
+        <div class="col-md-4 imgdiv">
+            <img src="assets/imgs/chairs/chair4.png"/>
+            <div class="form-group col-md-6">
+                <input type="text" id="newPicture" class="form-control" required>
+                <label class="form-control-placeholder" for="newPicture">PictureURL</label>
+            </div>
+        </div>
+        <div class="col-md-8 inputs">
+            <form id="createForm">
+                <div class="form-group col-md-3">
+                    <input type="text" id="newName" class="form-control" required>
+                    <label class="form-control-placeholder" for="newName">Name</label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input type="text" id="newPris" class="form-control" required>
+                    <label class="form-control-placeholder" for="newPris">Pris</label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input type="text" id="newFarver" class="form-control" required>
+                    <label class="form-control-placeholder" for="newFarver">Farver</label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input type="text" id="newMaker" class="form-control" required>
+                    <label class="form-control-placeholder" for="newMaker">Maker</label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input type="text" id="newDesignerFirstName" class="form-control" required>
+                    <label class="form-control-placeholder" for="newDesignerFirstName">Designer Fornavn</label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input type="text" id="newDesignerLastName" class="form-control" required>
+                    <label class="form-control-placeholder" for="newDesignerLastName">Designer Efternavn</label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input type="text" id="newDesignerCountry" class="form-control" required>
+                    <label class="form-control-placeholder" for="newDesignerCountry">Designer Fædreland</label>
+                </div>
+                <div class="form-group col-md-3">
+                    <input type="text" id="newTags" class="form-control" required>
+                    <label class="form-control-placeholder" for="newTags">Tags</label>
+                </div>
+
+                <br>
+                <div class="form-group col-md-3">
+                    <textarea cols="98" rows="15" class="form-control textareaInput" id="newDesc" required></textarea>
+                    <label class="form-control-placeholder textareaLbl" for="newDesc">Beskrivelse</label>
+                </div>
+                <button class="btn btn-success col-md-12 btn__create">Create</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
